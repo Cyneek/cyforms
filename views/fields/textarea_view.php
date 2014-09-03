@@ -4,7 +4,7 @@
 <?php if ($label) { ?>
 	<label for="<?=$id?>"><?=$label?></label>
 <?php } ?>
-<input type="text" class="form-control <?=$class?>" id="<?=$id?>" name="<?=$name?>" value="<?=$value?>"<?=$attributes?>>
+<textarea class="form-control <?=$class?>" id="<?=$id?>" rows="<?=$rows?>" name="<?=$name?>"<?=$attributes?>><?=$value?></textarea>
 <?php if ($help) { ?>
 	<p><?=$help?></p>
 <?php } ?>
